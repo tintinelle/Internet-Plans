@@ -1,12 +1,18 @@
 import style from './plan.module.scss';
+import CSSModules from 'react-css-modules';
+import classNames from 'classnames';
 
-export default function Plan(props) {
+
+function Plan(props) {
+  let planClass = classNames(style.plan, props.isSelected ? style.selected : "")
   return (
-        <div className={style.plan}>
-            <h2 className={style.plan__title}>Безлимитный {props.price}</h2>
-            <div className={style.plan__price}>руб {props.price}/мес</div>
+        <div className={planClass}>
+            <h2 className={style.main_info} styleName={props.colorOne}>Безлимитный {props.price}</h2>
+            <div className={style.main_info} styleName={props.colorTwo}>руб <span className={style.price}>{props.price}</span>/мес</div>
             <div className={style.plan__speed}>до {props.speed} Мбит/сек</div>
-            <div className={style.plan__info}>Объем включенного трафика не ограничен</div>
+            <div className={style.plan__info}>{props.info}</div>
         </div>
   )
 }
+
+export default CSSModules(Plan, style)

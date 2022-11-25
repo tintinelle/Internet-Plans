@@ -1,14 +1,61 @@
 .plan {
-    &__title {
+    line-height: 1.8em;
+    margin: 10px 1px;
 
-    }
-    &__price {
-        
-    }
     &__speed {
-        
+        padding: 15px;
     }
     &__info {
-        
+        padding: 15px;
+        background-color: rgb(236, 236, 226);
     }
+}
+
+.main_info {
+    margin-bottom: 0;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.selected {
+    line-height: 2em;
+    margin: 0;
+}
+
+.price {
+    margin: 5px;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.blue {
+    background-color: rgb(78, 176, 206);
+}
+
+.lightblue {
+    background-color: rgb(119, 188, 209);
+}
+
+.green {
+    background-color: rgb(78, 206, 127);
+}
+
+.lightgreen {
+    background-color: rgb(111, 204, 147);
+}
+
+.red {
+    background-color: rgb(206, 78, 78);
+}
+
+.lightred {
+    background-color: rgb(206, 114, 114);
+}
+
+.gray {
+    background-color: rgb(39, 40, 41);
+}
+
+.lightgray {
+    background-color: rgb(70, 71, 73);
 }

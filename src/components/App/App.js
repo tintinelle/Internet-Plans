@@ -9,9 +9,13 @@ function App() {
       <div className={style.plans}>
     {
       data.map((plan) =>
-      <Plan 
+      <Plan
+      colorOne={plan.colorOne} 
+      colorTwo={plan.colorTwo} 
       price={plan.price} 
-      speed={plan.speed}>
+      speed={plan.speed}
+      info={plan.info}
+      isSelected={plan.isSelected}>  
       </Plan>
       )
     }

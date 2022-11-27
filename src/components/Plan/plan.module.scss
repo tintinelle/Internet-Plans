@@ -1,17 +1,18 @@
 .plan {
     line-height: 1.8em;
     margin: 10px 1px;
-
-    &__speed {
-        padding: 15px;
-    }
-    &__info {
-        padding: 15px;
-        background-color: rgb(236, 236, 226);
-    }
 }
 
-.main_info {
+.speed {
+    padding: 15px;
+}
+
+.info {
+    padding: 15px;
+    background-color: rgb(236, 236, 226);
+}
+
+.details {
     margin-bottom: 0;
     padding: 30px;
     color: rgb(255, 255, 255);

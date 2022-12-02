@@ -1,16 +1,19 @@
 [{
+    "id": 1,
     "price": 300,
     "speed": 10,
     "info": "Объем включенного трафика не ограничен",
     "colorOne": "blue",
     "colorTwo": "lightblue"
 },{
+    "id": 2,
     "price": 450,
     "speed": 50,
     "info": "Объем включенного трафика не ограничен",
     "colorOne": "green",
     "colorTwo": "lightgreen"
 },{
+    "id": 3,
     "price": 550,
     "speed": 100,
     "info": "Объем включенного трафика не ограничен",
@@ -18,6 +21,7 @@
     "colorTwo": "lightred",
     "isSelected": "true"
 },{
+    "id": 4,
     "price": 1000,
     "speed": 200,
     "info": "Объем включенного трафика не ограничен",

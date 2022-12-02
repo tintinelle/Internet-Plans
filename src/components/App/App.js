@@ -10,12 +10,14 @@ function App() {
     {
       data.map((plan) =>
       <Plan
+      key={plan.id}
       colorOne={plan.colorOne} 
       colorTwo={plan.colorTwo} 
       price={plan.price} 
       speed={plan.speed}
       info={plan.info}
-      isSelected={plan.isSelected}>  
+      // isSelected={plan.isSelected}
+      >  
       </Plan>
       )
     }
